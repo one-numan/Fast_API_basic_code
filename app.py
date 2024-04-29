@@ -19,8 +19,8 @@ async def book_data(id: int):
 
 
 @app.route('/book/issue/{id}')
-async def book_issue(id:int):
-    return {"book_issue" : id}
+async def book_issue(id: int):
+    return {"book_issue": id}
 
 
 if __name__ == "__main__":
